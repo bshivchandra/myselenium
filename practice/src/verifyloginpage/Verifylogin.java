@@ -30,6 +30,8 @@ public class Verifylogin {
 	
 	public void loginIdPass(String userid, String pass) throws InterruptedException
 	{
+		//driver.findElement(By.lin("a:contains("Sign in")").click();	
+
 		
 		driver.findElement(By.xpath("//*[@id=\"navbarCollapse\"]/ul[2]/li/a")).click();	
 		JavascriptExecutor js=(JavascriptExecutor)driver;

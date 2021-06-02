@@ -16,7 +16,7 @@ public class login1 {
 	    driver.manage().window().maximize();
 		driver.get("https://solutionstouch.com/");
 		Verifylogin login=new Verifylogin(driver);
-		login.loginIdPass("bhusse.shiva@gmail.com", "shiva2007");
+		login.loginIdPass("bhusse.shiva@gmail.com", "shiva");
 			
 	}
 }
