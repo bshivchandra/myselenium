@@ -7,15 +7,11 @@ import org.testng.annotations.Test;
 
 import verifyloginpage.Verifylogin;
 
-public class login4 {
+public class login4 extends BaseClass {
 	
 	@Test
 	public void login4() throws InterruptedException 
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\shiv\\eclipse-workspace2\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-	    driver.manage().window().maximize();
-		driver.get("https://solutionstouch.com/");
 		Verifylogin login=new Verifylogin(driver);
 		login.loginIdPass("shiva@gmail.com", " ");		
 	}
